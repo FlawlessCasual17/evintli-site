@@ -1,0 +1,35 @@
+@reference './globals.css';
+@import 'tailwindcss';
+
+filterIcon {
+    position: absolute;
+    width: 43px;
+    height: 11px;
+    top: 1px;
+    left: 548px;
+    background-color: #008080;
+    border-radius: 21.35px/22.11px
+}
+
+searchBar {
+    position: absolute;
+    width: 538px;
+    height: 53px;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    @apply shadow-[0px_0px_4px_#00000040]
+}
+
+searchComponent {
+    position: absolute;
+    width: 150px;
+    height: 26px;
+    top: 1.5rem;
+    font-weight: 400;
+    color: #71767c;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal
+}
