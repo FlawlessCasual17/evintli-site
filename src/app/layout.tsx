@@ -4,7 +4,7 @@ import './globals.css';
 
 const lato = Lato({
     subsets: ['latin'],
-    variable: '--lato-regular' ,
+    variable: '--font-lato',
     weight: '400'
 });
 
@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang='en'>
-            <body
-                className={`${lato.variable} antialiased`}
-            >
-                {children}
-            </body>
+            <body className={`${lato.variable} antialiased`}>{children}</body>
         </html>
     );
 }
