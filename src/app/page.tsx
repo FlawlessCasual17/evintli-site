@@ -1,3 +1,5 @@
+import filterIcon from 'filter-icon.svg'
+import searchIcon from 'search-icon.svg'
 import logoText from 'logo.svg'
 import Image from 'next/image';
 import sty from './page.module.css'
@@ -13,7 +15,12 @@ export default function Home() {
                                 <div className='relative h-[53px]'>
                                     <div className='absolute w-[595px] h-[53px] top-0 left-0'>
                                         <div className={sty.filterIcon} id='filter'>
-                                            {/* Put filter icon here. */}
+                                            <Image
+                                                className='absolute w-5 h-[19px] top-[13px] left-[11px]'
+                                                id='filter_icon'
+                                                src={filterIcon}
+                                                alt='filters'
+                                            />
                                         </div>
 
                                         <div className={sty.searchBar} id='search_bar'>
@@ -23,11 +30,25 @@ export default function Home() {
                                             <p className={`${sty.searchComponent} left-[221px]`}>
                                                 What are you looking for?
                                             </p>
-                                            {/* Put search icon here. */}
+                                            <Image
+                                                className='absolute w-[43px] h-11 top-1 left-[491px]'
+                                                id='search_icon'
+                                                src={searchIcon}
+                                                alt='search'
+                                            />
                                         </div>
+                                    </div>
+
+                                    <div className={`${sty.subHeader} left-[29px]`} id='where_header'>
+                                        Where?
+                                    </div>
+
+                                    <div className={`${sty.subHeader} left-[203px]`} id='search_header'>
+                                        Search
                                     </div>
                                 </div>
                             </div>
+
                             <div
                                 className='absolute w-px h-[35px] top-px left-[198px]'
                                 id='divider'
@@ -50,7 +71,7 @@ export default function Home() {
                         className='absolute w-[101px] h-[37px]'
                         id='logo_text'
                         src={logoText}
-                        alt='logo with text'
+                        alt='logo of Evintli'
                     />
                 </div>
             </div>

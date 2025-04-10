@@ -33,3 +33,17 @@ searchComponent {
     letter-spacing: 0;
     line-height: normal
 }
+
+subHeader {
+    position: absolute;
+    width: 73px;
+    height: 13px;
+    top: 7px;
+    font-weight: 600;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap
+}
