@@ -6,7 +6,7 @@ import sty from './page.module.css'
 
 export default function Home() {
     return (
-        <div className='flex flex-row justify-center-safe' id='front_page'>
+        <div className='flex flex-row justify-center-safe scale-200' id='front_page'>
             <div className='absolute shrink-0 h-[53px] w-[591px] top-0' id='absolute_shrink0_h53px'>
                 <div className='absolute w-[1512px] h-[3px] top-[117px] left-0' id='absolute_w1512px_h3px'>
                     <div className='absolute w-[591px] h-[53px] top-0 left-[433px]' id='search_and_filter_1'>
@@ -27,9 +27,9 @@ export default function Home() {
                                             <div className={`${sty.searchComponent} left-[13px]`}>
                                                 Search Location
                                             </div>
-                                            <p className={`${sty.searchComponent} left-[221px]`}>
+                                            <div className={`${sty.searchComponent} left-[221px]`}>
                                                 What are you looking for?
-                                            </p>
+                                            </div>
                                             <Image
                                                 className='absolute w-[43px] h-11 top-1 left-[491px]'
                                                 id='search_icon'
@@ -39,20 +39,17 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div className={`${sty.subHeader} left-[29px]`} id='where_sub_header'>
+                                    <div className={`${sty.subHeader} left-[42px]`} id='where_sub_header'>
                                         Where?
                                     </div>
 
-                                    <div className={`${sty.subHeader} left-[207px]`} id='search_sub_header'>
+                                    <div className={`${sty.subHeader} text-center left-[204px]`} id='search_sub_header'>
                                         Search
                                     </div>
                                 </div>
                             </div>
 
-                            <div
-                                className='absolute w-px h-[35px] top-2 left-[198px]'
-                                id='divider'
-                            >
+                            <div className='absolute w-px h-[35px] top-2 left-[198px]' id='divider'>
                                 <svg width='1' height='35' viewBox='0 0 1 35' fill='none'>
                                     <line
                                         x1='0.5'

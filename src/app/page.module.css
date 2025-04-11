@@ -10,14 +10,12 @@
 
 .searchComponent {
     position: absolute;
-    width: 150px;
+    width: 151px;
     height: 26px;
     top: 1.5rem;
-    font-weight: 400;
     color: #71767c;
     font-size: 13px;
     text-align: center;
-    letter-spacing: 0;
     line-height: normal
 }
 
@@ -28,9 +26,5 @@
     top: 7px;
     font-weight: 600;
     color: #000;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap
+    font-size: 13px
 }
