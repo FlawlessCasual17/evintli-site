@@ -39,7 +39,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div className={`${sty.subHeader} left-[42px]`} id='where_sub_header'>
+                                    <div className={`${sty.subHeader} left-[42.5px]`} id='where_sub_header'>
                                         Where?
                                     </div>
 
