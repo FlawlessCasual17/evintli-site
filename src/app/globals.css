@@ -22,3 +22,7 @@ body {
     color: var(--foreground);
     font-family: var(--font-lato)
 }
+
+.shadow-effect {
+    @apply shadow-[0px_0px_4px_#00000040]
+}
