@@ -23,7 +23,7 @@ export default function Home() {
                                             />
                                         </div>
 
-                                        <div className={sty.searchBar} id='search_bar'>
+                                        <div className={sty.searchBar} id='search_descriptions'>
                                             <div className={`${sty.searchComponent} left-[13px]`}>
                                                 Search Location
                                             </div>
