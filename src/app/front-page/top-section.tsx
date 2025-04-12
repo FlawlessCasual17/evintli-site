@@ -1,18 +1,17 @@
-import notificationIcon from '../../public/bell.svg'
-import filterIcon from '../../public/filter-icon.svg'
-import searchIcon from '../../public/search-icon.svg'
-import logoText from '../../public/logo.svg'
+import notificationIcon from '../../../public/bell.svg'
+import filterIcon from '../../../public/filter-icon.svg'
+import searchIcon from '../../../public/search-icon.svg'
+import logoText from '../../../public/logo.svg'
 import Image from 'next/image';
 import sty from './top-section.module.css'
 
-
 export default function TopSection() {
     return (
-        <div className='absolute h-[53px] w-[591px]' id='absolute_shrink0_h53px'>
-            <div className='absolute w-[1512px] h-[3px] top-[117px]' id='absolute_w1512px_h3px'>
-                <div className='absolute w-[591px] h-[53px] left-[433px]' id='topsection_1'>
-                    <div className='relative w-[595px] h-[53px]' id='topsection_2'>
-                        <div className='absolute w-[591px] h-[53px]' id='topsection_3'>
+        <div className='absolute h-[53px]' id='absolute_shrink0_h53px'>
+            <div className='absolute h-[3px] top-[117px]' id='absolute_w1512px_h3px'>
+                <div className='absolute h-[53px] left-[433px]' id='topsection_1'>
+                    <div className='relative h-[53px]' id='topsection_2'>
+                        <div className='absolute h-[53px]' id='topsection_3'>
                             <div className='relative h-[53px]' id='topsection_4'>
                                 <div className={`${sty.notification} shadow-effect`} id='notifications'>
                                     <Image
